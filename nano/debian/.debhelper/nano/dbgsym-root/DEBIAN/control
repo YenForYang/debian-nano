@@ -1,0 +1,12 @@
+Package: nano-dbgsym
+Source: nano
+Version: 3.2-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jordi Mallach <jordi@debian.org>
+Installed-Size: 245
+Depends: nano (= 3.2-1)
+Section: debug
+Priority: optional
+Description: debug symbols for nano
+Build-Ids: 6521a73543517b52de7f5ceced98ccaee256d083

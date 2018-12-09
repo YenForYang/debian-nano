@@ -1,0 +1,42 @@
+Format: 1.8
+Date: Wed, 14 Nov 2018 00:27:30 +0100
+Source: nano
+Binary: nano nano-tiny nano-udeb
+Built-For-Profiles: nobiarch nocheck
+Architecture: amd64
+Version: 3.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Jordi Mallach <jordi@debian.org>
+Changed-By: Jordi Mallach <jordi@debian.org>
+Description:
+ nano       - small, friendly text editor inspired by Pico
+ nano-tiny  - small, friendly text editor inspired by Pico - tiny build
+ nano-udeb  - small, friendly text editor inspired by Pico - udeb (udeb)
+Changes:
+ nano (3.2-1) unstable; urgency=medium
+ .
+   * The "La banca *siempre* gana" release.
+   * New upstream release.
+   * Remove patches, which are obsolete with the new release.
+Checksums-Sha1:
+ 559e5c6d819835c016e3fbff667809edcdbc280b 212908 nano-dbgsym_3.2-1_amd64.deb
+ d3e6444e896918e613304a2491b02ea119ef8d15 52976 nano-tiny-dbgsym_3.2-1_amd64.deb
+ 564af6bae9b95c129b153aa187108b6d798d35ab 103824 nano-tiny_3.2-1_amd64.deb
+ aba2c840ab33cdd9d5729e10bf582d6516de83bd 38244 nano-udeb_3.2-1_amd64.udeb
+ 312d7491e45e82affbf153d540bef9fc50d0579b 6191 nano_3.2-1_amd64.buildinfo
+ 7f99a595396d073d1e810d857fdf1f7fed29a181 624024 nano_3.2-1_amd64.deb
+Checksums-Sha256:
+ f4c80d6ad0c1af8a1623ab2121017740afaff2f03649db8d2de48baa2fc4e406 212908 nano-dbgsym_3.2-1_amd64.deb
+ cb5b74121a09d8e0e4ccf094b49f3206fdfa574f647919bc39f286909b5d120c 52976 nano-tiny-dbgsym_3.2-1_amd64.deb
+ bd9df58cb6bec0407043aece609d6a2cd27f08a24e95f0f41f57add6f932ca5f 103824 nano-tiny_3.2-1_amd64.deb
+ a8dc44e53a0fbb195aca762cfa698fc3dc291effe6a59437a5d5082d631ac28e 38244 nano-udeb_3.2-1_amd64.udeb
+ 1614fc817a9c37b222adebba105d677c03a563888f758d170dbe43664970132f 6191 nano_3.2-1_amd64.buildinfo
+ 9ebed18d70ff4bbb0b0f5bdba5f660f0e6e87fd7926f42e547368f7c0450dfad 624024 nano_3.2-1_amd64.deb
+Files:
+ 54b431d4dd941d0c4d1a7fb3fd3a59f0 212908 debug optional nano-dbgsym_3.2-1_amd64.deb
+ e1498ff45d2ca88416a7cac282e31cd7 52976 debug optional nano-tiny-dbgsym_3.2-1_amd64.deb
+ 410cfc1557e5dae4543c9c50251b360f 103824 editors optional nano-tiny_3.2-1_amd64.deb
+ 08c5a12771586ee2b4a9c4adb5fb7f89 38244 debian-installer standard nano-udeb_3.2-1_amd64.udeb
+ e59b5afbc09634d7830bae4445ab8ee7 6191 editors optional nano_3.2-1_amd64.buildinfo
+ 875132b0253d30721d83d9727d6bddbd 624024 editors important nano_3.2-1_amd64.deb

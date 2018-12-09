@@ -1,0 +1,16 @@
+Package: nano-udeb
+Source: nano
+Version: 3.2-1
+Architecture: amd64
+Maintainer: Jordi Mallach <jordi@debian.org>
+Installed-Size: 97
+Depends: libc6-udeb (>= 2.27), libslang2-udeb (>= 2.3.2)
+Section: debian-installer
+Priority: standard
+Description: small, friendly text editor inspired by Pico - udeb
+ GNU nano is an easy-to-use text editor originally designed as a replacement
+ for Pico, the ncurses-based editor from the non-free mailer package Pine
+ (itself now available under the Apache License as Alpine).
+ .
+ This package contains a build of GNU nano with many features disabled, for
+ use in debian-installer.

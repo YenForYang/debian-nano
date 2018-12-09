@@ -1,0 +1,6 @@
+nano-dbgsym_3.2-1_amd64.deb debug optional automatic=yes
+nano-tiny-dbgsym_3.2-1_amd64.deb debug optional automatic=yes
+nano-tiny_3.2-1_amd64.deb editors optional
+nano-udeb_3.2-1_amd64.udeb debian-installer standard
+nano_3.2-1_amd64.buildinfo editors optional
+nano_3.2-1_amd64.deb editors important
